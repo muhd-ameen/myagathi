@@ -18,7 +18,6 @@ export const Navigation: React.FC<NavigationProps> = ({ isScrolled }) => {
     { label: 'About', id: 'about' },
     { label: 'Packages', id: 'itineraries' },
     { label: 'Services', id: 'services' },
-    { label: 'Gallery', id: 'gallery' },
     { label: 'FAQ', id: 'faq' },
     { label: 'Contact', id: 'contact' }
   ];

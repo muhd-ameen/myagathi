@@ -4,7 +4,6 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { Itineraries } from './components/Itineraries';
-import { Gallery } from './components/Gallery';
 import { FAQ } from './components/FAQ';
 import { Contact } from './components/Contact';
 import { TrustBadges } from './components/TrustBadges';
@@ -28,7 +27,6 @@ function App() {
       <About />
       <Services />
       <Itineraries />
-      <Gallery />
       <FAQ />
       <TrustBadges />
       <Contact />
