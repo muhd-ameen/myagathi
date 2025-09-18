@@ -78,23 +78,26 @@ export const About: React.FC = () => {
           })}
         </div>
 
-        {/* Story Section */}
-        <div className="bg-gradient-to-r from-turquoise/10 via-coral/10 to-sand/10 rounded-3xl p-8 md:p-12 mb-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-6">
-              Our Story: From Dream to Reality
-            </h3>
-            <p className="text-lg text-deep-ocean/80 leading-relaxed mb-8">
-              It all began with a single photograph – a glimpse of Bangaram Island's pristine beaches that captured our founder's heart. 
-              That moment sparked a journey that led to establishing Viator, a company built on the belief that everyone deserves to experience 
-              the magic of untouched paradise.
-            </p>
-            <p className="text-lg text-deep-ocean/80 leading-relaxed">
-              Today, we're proud to be Lakshadweep's most trusted tour operator, having helped over 500 travelers create memories that last a lifetime. 
-              But we're still that same passionate team, driven by the same dream – to share the beauty of our islands with the world.
-            </p>
-          </div>
-        </div>
+            {/* Story Section */}
+            <div className="bg-gradient-to-r from-turquoise/10 via-coral/10 to-sand/10 rounded-3xl p-8 md:p-12 mb-16">
+              <div className="max-w-4xl mx-auto text-center">
+                <h3 className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-6">
+                  Our Story: From Dream to Reality 🌊✨
+                </h3>
+                <p className="text-lg text-deep-ocean/80 leading-relaxed mb-6">
+                  It started with a photo. 📸 One shot of Bangaram Island. White sand. Clear water. That picture hit different. It wasn't just a beach. It was a spark. 🔥
+                </p>
+                <p className="text-lg text-deep-ocean/80 leading-relaxed mb-6">
+                  That spark turned into Viator. A wild belief that everyone should feel the magic of untouched paradise. 🌴 Not just scroll past it. Actually live it. 🌞
+                </p>
+                <p className="text-lg text-deep-ocean/80 leading-relaxed mb-6">
+                  Fast forward. We've taken 500+ people here. 🚤 Watched them laugh, dive, breathe, and carry back stories that stick for life. 💙
+                </p>
+                <p className="text-lg text-deep-ocean/80 leading-relaxed">
+                  But honestly nothing's changed. We're still the same team. 🙌 Still obsessed. Still chasing the same dream. Sharing our islands with anyone who's ready to feel them for real. 🌍
+                </p>
+              </div>
+            </div>
 
         {/* Company Info */}
         <div className="bg-white rounded-2xl shadow-soft p-8 text-center">

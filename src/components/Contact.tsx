@@ -190,7 +190,7 @@ export const Contact: React.FC = () => {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-3 rounded-3xl overflow-hidden shadow-soft-lg">
               <img 
-                src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
                 alt="Lakshadweep Paradise"
                 className="object-cover w-full h-full"
               />
