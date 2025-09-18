@@ -15,7 +15,7 @@ export const TrustBadges: React.FC = () => {
       title: 'Agatti Based',
       description: 'Local experts with island knowledge',
       highlight: 'Born and raised in paradise',
-      color: 'from-sand to-turquoise'
+      color: 'from-coral to-sand'
     },
     {
       icon: Clock,
