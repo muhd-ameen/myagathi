@@ -42,7 +42,7 @@ export const Itineraries: React.FC = () => {
         '🌅 Sunset viewing experience',
         '🥤 Complimentary refreshments'
       ],
-      image: 'https://images.pexels.com/photos/1583339/pexels-photo-1583339.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: 'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       price: 'From ₹8,500',
       originalPrice: '₹10,000',
       discount: '15% OFF',

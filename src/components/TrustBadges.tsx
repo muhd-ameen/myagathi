@@ -68,39 +68,6 @@ export const TrustBadges: React.FC = () => {
           })}
         </div>
 
-        {/* Social Proof Section */}
-        <div className="bg-gradient-to-r from-turquoise/10 via-coral/10 to-sand/10 rounded-3xl p-8 md:p-12 text-center">
-          <h3 className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-6">
-            Join 500+ Travelers Who've Discovered Paradise
-          </h3>
-          <p className="text-xl text-deep-ocean/70 mb-8 max-w-3xl mx-auto">
-            Don't just take our word for it. Read what our guests have to say about their 
-            unforgettable Lakshadweep experiences with us.
-          </p>
-          
-          
-
-          {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://wa.me/918086003344"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="solid-turquoise text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-soft-lg transition-all duration-300 transform hover:scale-105"
-            >
-              Book Your Adventure
-            </a>
-            <a 
-              href="https://wa.me/918086003344"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="glass text-deep-ocean px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center gap-2"
-            >
-              <Phone className="h-5 w-5" />
-              WhatsApp Consultation
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
