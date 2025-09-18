@@ -145,7 +145,7 @@ export const Contact: React.FC = () => {
                   <MapPin className="h-6 w-6 text-turquoise" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-white mb-1">Myagathi Travels</h4>
+                  <h4 className="font-semibold text-white mb-1">Viator Travels</h4>
                   <p className="text-white/70">Agatti Island, Lakshadweep</p>
                   <p className="text-white/60 text-sm">Government Licensed Tour Operator</p>
                 </div>
@@ -246,7 +246,7 @@ export const Contact: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
             <div>
-              <h4 className="font-semibold text-white mb-2">Myagathi Travels</h4>
+              <h4 className="font-semibold text-white mb-2">Viator Travels</h4>
               <p className="text-white/60 text-sm">Your trusted partner for Lakshadweep adventures</p>
             </div>
             <div>

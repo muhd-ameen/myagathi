@@ -41,7 +41,7 @@ export const About: React.FC = () => {
             <span className="block text-turquoise">Love for Paradise</span>
           </h2>
           <p className="text-xl text-deep-ocean/70 max-w-4xl mx-auto leading-relaxed">
-            Myagathi isn't just a tour company – it's a dream born from our founder's first glimpse of Lakshadweep's crystal-clear waters. 
+            Viator isn't just a tour company – it's a dream born from our founder's first glimpse of Lakshadweep's crystal-clear waters. 
             What started as a personal passion has become a mission to share this untouched paradise with fellow travelers seeking authentic island experiences.
           </p>
         </div>
@@ -86,7 +86,7 @@ export const About: React.FC = () => {
             </h3>
             <p className="text-lg text-deep-ocean/80 leading-relaxed mb-8">
               It all began with a single photograph – a glimpse of Bangaram Island's pristine beaches that captured our founder's heart. 
-              That moment sparked a journey that led to establishing Myagathi, a company built on the belief that everyone deserves to experience 
+              That moment sparked a journey that led to establishing Viator, a company built on the belief that everyone deserves to experience 
               the magic of untouched paradise.
             </p>
             <p className="text-lg text-deep-ocean/80 leading-relaxed">
@@ -102,7 +102,7 @@ export const About: React.FC = () => {
             <div className="w-12 h-12 solid-turquoise rounded-full flex items-center justify-center">
               <Shield className="h-6 w-6 text-white" />
             </div>
-            <h3 className="font-display text-2xl font-bold text-deep-ocean">Myagathi Travels</h3>
+                <h3 className="font-display text-2xl font-bold text-deep-ocean">Viator Travels</h3>
           </div>
           <p className="text-deep-ocean/80 text-lg mb-4">
             <strong>Government Licensed Tour Operator</strong> - Your trusted partner for Lakshadweep adventures

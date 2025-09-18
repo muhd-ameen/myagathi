@@ -35,7 +35,7 @@ export const Navigation: React.FC<NavigationProps> = ({ isScrolled }) => {
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-coral rounded-full animate-pulse" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-deep-ocean font-display">Myagathi</h1>
+              <h1 className="text-xl font-bold text-deep-ocean font-display">Viator</h1>
               <div className="flex items-center gap-1">
                 <span className="text-xs solid-turquoise text-white px-2 py-0.5 rounded-full font-medium">
                   Govt Licensed
