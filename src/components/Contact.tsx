@@ -17,7 +17,7 @@ export const Contact: React.FC = () => {
       title: 'WhatsApp Chat',
       description: 'Quick responses & instant quotes',
       action: 'Start Chat',
-      href: 'https://wa.me/918086003344',
+      href: 'https://wa.me/918086003344?text=Hi! I have questions about your Lakshadweep tours. Can you help me?',
       primary: true,
       available: 'Instant Response'
     },
@@ -26,7 +26,7 @@ export const Contact: React.FC = () => {
       title: 'WhatsApp Quote',
       description: 'Detailed inquiries & custom packages',
       action: 'Get Quote',
-      href: 'https://wa.me/918086003344',
+      href: 'https://wa.me/918086003344?text=Hi! I need a detailed quote for my Lakshadweep trip. Can you provide pricing and package details?',
       primary: false,
       available: 'Instant Response'
     },
@@ -35,7 +35,7 @@ export const Contact: React.FC = () => {
       title: 'Book Consultation',
       description: 'Free 30-min planning session',
       action: 'WhatsApp',
-      href: 'https://wa.me/918086003344',
+      href: 'https://wa.me/918086003344?text=Hi! I\'d like to book a free consultation for my Lakshadweep trip planning. When can we schedule this?',
       primary: false,
       available: 'Free Consultation'
     }
@@ -161,7 +161,7 @@ export const Contact: React.FC = () => {
                     <a href="tel:8086003344" className="block text-white/70 hover:text-turquoise transition-colors">
                       +91 80860 03344 (Primary)
                     </a>
-                    <a href="https://wa.me/918086003344" target="_blank" rel="noopener noreferrer" className="block text-white/70 hover:text-turquoise transition-colors">
+                    <a href="https://wa.me/918086003344?text=Hi! I'm interested in your Lakshadweep tours. Can you help me with information?" target="_blank" rel="noopener noreferrer" className="block text-white/70 hover:text-turquoise transition-colors">
                       WhatsApp: +91 80860 03344
                     </a>
                   </div>
@@ -175,7 +175,7 @@ export const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-1">WhatsApp</h4>
                   <a 
-                    href="https://wa.me/918086003344"
+                    href="https://wa.me/918086003344?text=Hi! I'm interested in your Lakshadweep tours. Can you help me with information?"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white/70 hover:text-turquoise transition-colors"
@@ -228,7 +228,7 @@ export const Contact: React.FC = () => {
                 Call Now: +91 80860 03344
               </a>
               <a 
-                href="https://wa.me/918086003344"
+                href="https://wa.me/918086003344?text=Hi! I'm ready to book my Lakshadweep adventure. Can you help me get started?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-600 transition-all duration-300 flex items-center justify-center gap-2"

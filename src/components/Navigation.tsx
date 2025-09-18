@@ -63,7 +63,7 @@ export const Navigation: React.FC<NavigationProps> = ({ isScrolled }) => {
             {/* Desktop CTA */}
             <div className="hidden md:block">
               <a 
-                href="https://wa.me/918086003344"
+                href="https://wa.me/918086003344?text=Hi! I'm interested in your Lakshadweep tours. Can you help me with information?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="solid-turquoise text-white px-6 py-2 rounded-full text-sm font-semibold hover:shadow-soft transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
@@ -102,7 +102,7 @@ export const Navigation: React.FC<NavigationProps> = ({ isScrolled }) => {
               ))}
               <div className="pt-4 border-t border-gray-200">
                 <a 
-                  href="https://wa.me/918086003344"
+                  href="https://wa.me/918086003344?text=Hi! I'm interested in your Lakshadweep tours. Can you help me with information?"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 solid-turquoise text-white px-6 py-3 rounded-full text-sm font-semibold hover:shadow-soft transition-all duration-300"

@@ -86,7 +86,7 @@ export const Hero: React.FC = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in">
           <a 
-            href="https://wa.me/918086003344"
+            href="https://wa.me/918086003344?text=Hi! I'm interested in starting my Lakshadweep journey. Can you help me plan my dream vacation?"
             target="_blank"
             rel="noopener noreferrer"
             className="solid-turquoise text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-soft-lg transition-all duration-300 transform hover:scale-105 shadow-soft"
@@ -94,7 +94,7 @@ export const Hero: React.FC = () => {
             Start Your Journey
           </a>
           <a 
-            href="https://wa.me/918086003344"
+            href="https://wa.me/918086003344?text=Hi! I'd like to see your Lakshadweep tour packages. Can you send me the details?"
             target="_blank"
             rel="noopener noreferrer"
             className="glass text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-300"

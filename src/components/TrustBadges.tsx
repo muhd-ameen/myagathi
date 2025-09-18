@@ -71,4 +71,4 @@ export const TrustBadges: React.FC = () => {
       </div>
     </section>
   );
-};
+};hat

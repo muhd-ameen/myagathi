@@ -172,7 +172,7 @@ export const Itineraries: React.FC = () => {
 
                 {/* CTA Button */}
                 <a 
-                  href="https://wa.me/918086003344"
+                  href={`https://wa.me/918086003344?text=Hi! I'm interested in booking the "${pkg.title}" package. Can you help me with the booking process?`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full solid-turquoise text-white py-3 rounded-full font-semibold hover:shadow-soft transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
@@ -217,7 +217,7 @@ export const Itineraries: React.FC = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://wa.me/918086003344"
+                  href="https://wa.me/918086003344?text=Hi! I'd like to get a custom quote for a Lakshadweep tour package. Can you help me create a personalized itinerary?"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="solid-turquoise text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-soft-lg transition-all duration-300 transform hover:scale-105"
@@ -225,7 +225,7 @@ export const Itineraries: React.FC = () => {
                   Get Custom Quote
                 </a>
                 <a 
-                  href="https://wa.me/918086003344"
+                  href="https://wa.me/918086003344?text=Hi! I'd like to schedule a consultation for my Lakshadweep trip. Can we discuss my travel plans?"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="glass text-deep-ocean px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center gap-2"

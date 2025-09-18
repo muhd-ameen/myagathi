@@ -112,7 +112,7 @@ export const Services: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://wa.me/918086003344"
+                href="https://wa.me/918086003344?text=Hi! I'd like to see your Lakshadweep tour packages and services. Can you send me the details?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="solid-turquoise text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-soft-lg transition-all duration-300 transform hover:scale-105"
@@ -120,7 +120,7 @@ export const Services: React.FC = () => {
                 View Packages
               </a>
               <a 
-                href="https://wa.me/918086003344"
+                href="https://wa.me/918086003344?text=Hi! I have questions about your Lakshadweep services. Can you help me?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="glass text-deep-ocean px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center gap-2"
