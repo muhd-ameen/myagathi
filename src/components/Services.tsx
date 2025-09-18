@@ -69,11 +69,7 @@ export const Services: React.FC = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                   
-                  {/* Rating Badge */}
-                  <div className="absolute top-4 right-4 glass rounded-full px-3 py-1 flex items-center gap-1">
-                    <Star className="h-4 w-4 text-yellow-400 fill-current" />
-                    <span className="text-white text-sm font-medium">{service.rating}</span>
-                  </div>
+                  
 
                   {/* Icon */}
                   <div className="absolute bottom-4 left-4">
