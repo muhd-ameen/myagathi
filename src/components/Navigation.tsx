@@ -40,10 +40,6 @@ export const Navigation: React.FC<NavigationProps> = ({ isScrolled }) => {
                 <span className="text-xs solid-turquoise text-white px-2 py-0.5 rounded-full font-medium">
                   Govt Licensed
                 </span>
-                <div className="flex items-center gap-1">
-                  <Star className="h-3 w-3 text-yellow-400 fill-current" />
-                  <span className="text-xs text-deep-ocean/70 font-medium">4.9</span>
-                </div>
               </div>
             </div>
           </div>
