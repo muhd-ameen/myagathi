@@ -28,7 +28,7 @@ export const Services: React.FC = () => {
       icon: Ship,
       title: '📋 Seamless Logistics',
       description: 'We handle all permits, transfers, and paperwork so you can focus on creating memories. Government-licensed and fully insured.',
-      features: ['📄 All permits included', '✈️ Airport transfers', '🕐 24/7 support', '🛡️ Travel insurance'],
+      features: ['📄 All permits included', '✈️ Airport transfers', '🛡️ Travel insurance'],
       image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
     }
   ];
@@ -38,10 +38,7 @@ export const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-turquoise/10 text-turquoise px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <Star className="h-4 w-4 fill-current" />
-            <span>Trusted by 500+ Travelers</span>
-          </div>
+          
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-deep-ocean mb-6">
             🌟 Your Dream Island
             <span className="block text-turquoise">✨ Experience Awaits ✨</span>
@@ -68,6 +65,7 @@ export const Services: React.FC = () => {
                     className="object-cover w-full h-64 group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  
                   
                   
 

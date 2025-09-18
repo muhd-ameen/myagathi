@@ -43,9 +43,7 @@ export const Contact: React.FC = () => {
 
   const trustIndicators = [
     { icon: Shield, text: 'Government Licensed', subtext: 'CIN: U79120LD2024PTC024410' },
-    { icon: Star, text: '4.9/5 Rating', subtext: '500+ Happy Travelers' },
-    { icon: MapPin, text: 'Agatti Based', subtext: 'Local Island Experts' },
-    { icon: Clock, text: '24/7 Support', subtext: 'Always Here to Help' }
+    { icon: MapPin, text: 'Agatti Based', subtext: 'Local Island Experts' }
   ];
 
   return (
@@ -246,7 +244,7 @@ export const Contact: React.FC = () => {
       {/* Footer */}
       <div className="border-t border-white/10 mt-16 pt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
+            <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
             <div>
               <h4 className="font-semibold text-white mb-2">Myagathi Travels</h4>
               <p className="text-white/60 text-sm">Your trusted partner for Lakshadweep adventures</p>
@@ -255,10 +253,7 @@ export const Contact: React.FC = () => {
               <h4 className="font-semibold text-white mb-2">Licensed & Insured</h4>
               <p className="text-white/60 text-sm">CIN: U79120LD2024PTC024410</p>
             </div>
-            <div>
-              <h4 className="font-semibold text-white mb-2">24/7 Support</h4>
-              <p className="text-white/60 text-sm">Always here to help you</p>
-            </div>
+            
           </div>
         </div>
       </div>

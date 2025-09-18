@@ -23,12 +23,10 @@ export const Hero: React.FC = () => {
     document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const trustBadges = [
-    { icon: Shield, text: "Govt. Licensed" },
-    { icon: Users, text: "500+ Happy Travelers" },
-    { icon: Star, text: "4.9/5 Rating" },
-    { icon: MapPin, text: "Agatti Based" }
-  ];
+      const trustBadges = [
+        { icon: Shield, text: "Govt. Licensed" },
+        { icon: MapPin, text: "Agatti Based" }
+      ];
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -108,12 +106,7 @@ export const Hero: React.FC = () => {
         {/* Social Proof */}
         <div className="animate-fade-in">
           <p className="text-sm opacity-70 mb-2">Trusted by travelers worldwide</p>
-          <div className="flex justify-center items-center gap-2">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
-            ))}
-            <span className="ml-2 text-sm font-medium">4.9/5 (127 reviews)</span>
-          </div>
+              
         </div>
       </div>
 

@@ -16,7 +16,7 @@ export const Itineraries: React.FC = () => {
         '🤿 Professional snorkeling & diving',
         '🎭 Cultural island experiences',
         '📄 All permits & transfers included',
-        '🕐 24/7 local guide support',
+        'Dedicated local guide support',
         '📸 Photography & memories package'
       ],
       image: 'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',

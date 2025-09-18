@@ -2,12 +2,12 @@ import React from 'react';
 import { MapPin, Shield, Users, Heart, Award, Clock, Star, CheckCircle } from 'lucide-react';
 
 export const About: React.FC = () => {
-  const stats = [
-    { number: '500+', label: 'Happy Travelers', icon: Users },
-    { number: '4.9/5', label: 'Average Rating', icon: Star },
-    { number: '5+', label: 'Years Experience', icon: Award },
-    { number: '24/7', label: 'Support Available', icon: Clock }
-  ];
+      const stats = [
+        { number: 'Govt', label: 'Licensed', icon: Shield },
+        { number: 'Local', label: 'Island Experts', icon: MapPin },
+        { number: '100%', label: 'Custom Plans', icon: CheckCircle },
+        { number: '24x7', label: 'Trip Assistance', icon: Clock }
+      ];
 
   const values = [
     {

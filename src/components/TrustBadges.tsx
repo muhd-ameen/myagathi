@@ -78,25 +78,7 @@ export const TrustBadges: React.FC = () => {
             unforgettable Lakshadweep experiences with us.
           </p>
           
-          {/* Testimonial Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-turquoise mb-2">4.9/5</div>
-              <p className="text-deep-ocean/70 text-sm">Average Rating</p>
-            </div>
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-coral mb-2">500+</div>
-              <p className="text-deep-ocean/70 text-sm">Happy Travelers</p>
-            </div>
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-sand mb-2">5+</div>
-              <p className="text-deep-ocean/70 text-sm">Years Experience</p>
-            </div>
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-turquoise mb-2">24/7</div>
-              <p className="text-deep-ocean/70 text-sm">Support Available</p>
-            </div>
-          </div>
+          
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
