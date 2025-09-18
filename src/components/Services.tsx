@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Home, Waves, Ship, Star, CheckCircle, ArrowRight, Phone } from 'lucide-react';
+import { MapPin, Home, Waves, Ship, Phone } from 'lucide-react';
 
 export const Services: React.FC = () => {
   const services = [

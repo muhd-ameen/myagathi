@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, MapPin, Users, Star, Award, Clock, CheckCircle, Phone } from 'lucide-react';
+import { Shield, MapPin, Clock, CheckCircle } from 'lucide-react';
 
 export const TrustBadges: React.FC = () => {
   const badges = [
@@ -71,4 +71,4 @@ export const TrustBadges: React.FC = () => {
       </div>
     </section>
   );
-};hat
+};
