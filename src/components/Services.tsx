@@ -89,9 +89,8 @@ export const Services: React.FC = () => {
                   {/* Features */}
                   <div className="space-y-2 mb-6">
                     {service.features.map((feature, idx) => (
-                      <div key={idx} className="flex items-center gap-2">
-                        <CheckCircle className="h-4 w-4 text-turquoise flex-shrink-0" />
-                        <span className="text-sm text-deep-ocean/80">{feature}</span>
+                      <div key={idx} className="text-sm text-deep-ocean/80">
+                        {feature}
                       </div>
                     ))}
                   </div>
