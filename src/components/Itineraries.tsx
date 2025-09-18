@@ -157,15 +157,13 @@ export const Itineraries: React.FC = () => {
 
                 {/* Highlights */}
                 <div className="mb-6">
-                  <h4 className="font-semibold text-deep-ocean mb-3 flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-turquoise" />
+                  <h4 className="font-semibold text-deep-ocean mb-3">
                     What's Included:
                   </h4>
                   <ul className="space-y-2">
                     {pkg.highlights.map((highlight, idx) => (
-                      <li key={idx} className="text-sm text-deep-ocean/80 flex items-start gap-2">
-                        <CheckCircle className="h-3 w-3 text-turquoise flex-shrink-0 mt-0.5" />
-                        <span>{highlight}</span>
+                      <li key={idx} className="text-sm text-deep-ocean/80">
+                        {highlight}
                       </li>
                     ))}
                   </ul>
