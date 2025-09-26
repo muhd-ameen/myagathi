@@ -48,8 +48,8 @@ export const Hero: React.FC = () => {
 
       {/* Content */}
       <div className={`relative z-10 text-center text-white max-w-6xl mx-auto px-4 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            {/* Trust Badges */}
-            <div className="flex flex-wrap justify-center gap-4 mb-8 animate-fade-in">
+            {/* Trust Badges - Desktop Only */}
+            <div className="hidden md:flex flex-wrap justify-center gap-4 mb-8 animate-fade-in">
               {trustBadges.map((badge, index) => {
                 const Icon = badge.icon;
                 return (
