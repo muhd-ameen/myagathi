@@ -63,7 +63,7 @@ export const Services: React.FC = () => {
       icon: Home,
       title: '🎭 Native Dweep Culture',
       description: 'Immerse yourself in authentic Lakshadweep culture. Experience traditional music, dance, crafts, and local customs.',
-      features: ['🎵 Traditional music & dance', '🎨 Local handicrafts', '👥 Cultural interactions', '🏠 Village life experience'],
+      features: ['🎵 Traditional music & dance', '🎨 Local handicrafts', '👥 Cultural interactions', '🏠 Village life experience', '🎨 See Parijja Mutt, Olakka Mutt, Kolkalli art items & more'],
       image: '/images/cultural-activiites.JPG'
     }
   ];

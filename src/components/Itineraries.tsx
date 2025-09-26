@@ -21,8 +21,8 @@ export const Itineraries: React.FC = () => {
       ],
       image: 'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       price: 'From ₹16,500',
-      originalPrice: '₹55,000',
-      discount: '18% OFF',
+      originalPrice: '₹18,500',
+      discount: 'Save ₹2,000',
       popular: true,
       bestseller: true
     },
@@ -44,8 +44,8 @@ export const Itineraries: React.FC = () => {
       ],
       image: 'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       price: 'From ₹8,500',
-      originalPrice: '₹10,000',
-      discount: '15% OFF',
+      originalPrice: '₹10,500',
+      discount: 'Save ₹2,000',
       popular: false,
       bestseller: false
     },
@@ -67,8 +67,8 @@ export const Itineraries: React.FC = () => {
       ],
       image: 'https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       price: 'From ₹38,000',
-      originalPrice: '₹45,000',
-      discount: '16% OFF',
+      originalPrice: '₹40,000',
+      discount: 'Save ₹2,000',
       popular: true,
       bestseller: false
     }
@@ -85,7 +85,7 @@ export const Itineraries: React.FC = () => {
           </div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-deep-ocean mb-6">
             🎯 Choose Your
-            <span className="block text-turquoise">✨ Perfect Adventure ✨</span>
+            <span className="block text-turquoise"> Perfect Adventure </span>
           </h2>
           <p className="text-xl text-deep-ocean/70 max-w-3xl mx-auto leading-relaxed">
             🏝️ Each package is carefully designed to showcase the unique beauty of Lakshadweep. From quick escapes to immersive adventures, 
