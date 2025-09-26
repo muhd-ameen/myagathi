@@ -55,8 +55,8 @@ export const Services: React.FC = () => {
     {
       icon: MapPin,
       title: '🌅 360° Sightseeing & Island Tours',
-      description: 'Complete island exploration with panoramic views. Discover hidden spots, viewpoints, and the best photo opportunities.',
-      features: ['🌅 Sunrise & sunset viewpoints', '📸 Best photo spots', '🗺️ Complete island tour', '👨‍🏫 Local guide insights'],
+      description: 'Every corner of Agatti is a treasure waiting to be discovered. From hidden coves to breathtaking viewpoints, every place you visit will feel like paradise.',
+      features: ['🌅 Sunrise & sunset viewpoints', '📸 Best photo spots', '🗺️ Complete island tour', '👨‍🏫 Local guide insights', '💎 Discover hidden treasures at every turn'],
       image: '/images/sight seeing.JPG'
     },
     {
