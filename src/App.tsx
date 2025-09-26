@@ -27,9 +27,8 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <Itineraries />
-      <CompanyStory />
       <TrustBadges />
+      <Itineraries />
       <FAQ />
       <Contact />
       
