@@ -45,12 +45,6 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20" />
       </div>
 
-      {/* Floating Elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-10 w-20 h-20 bg-turquoise/20 rounded-full animate-float" />
-        <div className="absolute top-40 right-20 w-16 h-16 bg-coral/20 rounded-full animate-float" style={{ animationDelay: '2s' }} />
-        <div className="absolute bottom-40 left-20 w-12 h-12 bg-sand/30 rounded-full animate-float" style={{ animationDelay: '4s' }} />
-      </div>
 
       {/* Content */}
       <div className={`relative z-10 text-center text-white max-w-6xl mx-auto px-4 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
