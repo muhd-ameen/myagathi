@@ -24,43 +24,6 @@ export const About: React.FC = () => {
         </div>
 
 
-        {/* Agatti Activities & Specialties */}
-        <div className="bg-gradient-to-r from-turquoise/10 via-coral/10 to-sand/10 rounded-3xl p-8 md:p-12 mb-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-6">
-              🏝️ Why Choose Agatti Island? 🏝️
-            </h3>
-            <div className="grid md:grid-cols-2 gap-8 text-left">
-              <div>
-                <h4 className="font-semibold text-deep-ocean mb-4 text-lg">🌟 Unique Activities:</h4>
-                <ul className="space-y-2 text-deep-ocean/80">
-                  <li>• 🏖️ Three pristine beaches with different vibes</li>
-                  <li>• 🏛️ Rich cultural museum and heritage sites</li>
-                  <li>• 🚣 Kayaking and glass-bottom boat tours</li>
-                  <li>• 🤿 Snorkeling and scuba diving adventures</li>
-                  <li>• 🏝️ Island hopping to nearby paradises</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold text-deep-ocean mb-4 text-lg">🎯 Specialties:</h4>
-                <ul className="space-y-2 text-deep-ocean/80">
-                  <li>• 🎣 Traditional fishing experiences</li>
-                  <li>• 🍽️ Authentic local cuisine</li>
-                  <li>• 🌅 360° island sightseeing tours</li>
-                  <li>• 🎭 Native Dweep cultural immersion</li>
-                  <li>• 👨‍🏫 Local expert guides</li>
-                </ul>
-              </div>
-            </div>
-            <div className="mt-8">
-              <p className="text-lg text-deep-ocean/80 leading-relaxed">
-                Agatti Island offers the perfect blend of adventure, relaxation, and cultural discovery. 
-                Whether you're seeking thrilling water sports, peaceful beach time, or authentic island experiences, 
-                Agatti has something special for every traveler.
-              </p>
-            </div>
-          </div>
-        </div>
 
       </div>
     </section>
