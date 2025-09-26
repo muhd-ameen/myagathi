@@ -75,7 +75,7 @@ export const Contact: React.FC = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+        <div className="flex justify-center gap-8 mb-16">
           {trustIndicators.map((indicator, index) => {
             const Icon = indicator.icon;
             return (
@@ -161,6 +161,9 @@ export const Contact: React.FC = () => {
                     <a href="tel:8086003344" className="block text-white/70 hover:text-turquoise transition-colors">
                       +91 80860 03344 (Primary)
                     </a>
+                    <a href="tel:8078095740" className="block text-white/70 hover:text-turquoise transition-colors">
+                      +91 80780 95740
+                    </a>
                     <a href="https://wa.me/918086003344?text=Hi! I'm interested in your Lakshadweep tours. Can you help me with information?" target="_blank" rel="noopener noreferrer" className="block text-white/70 hover:text-turquoise transition-colors">
                       WhatsApp: +91 80860 03344
                     </a>
@@ -225,7 +228,14 @@ export const Contact: React.FC = () => {
                 className="solid-turquoise text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-soft-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 <Phone className="h-5 w-5" />
-                Call Now: +91 80860 03344
+                Call: +91 80860 03344
+              </a>
+              <a 
+                href="tel:8078095740"
+                className="solid-coral text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-soft-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+              >
+                <Phone className="h-5 w-5" />
+                Call: +91 80780 95740
               </a>
               <a 
                 href="https://wa.me/918086003344?text=Hi! I'm ready to book my Lakshadweep adventure. Can you help me get started?"
@@ -243,18 +253,10 @@ export const Contact: React.FC = () => {
 
       {/* Footer */}
       <div className="border-t border-white/10 mt-16 pt-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
-            <div>
-              <h4 className="font-semibold text-white mb-2">Viator Travels</h4>
-              <p className="text-white/60 text-sm">Your trusted partner for Lakshadweep adventures</p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-white mb-2">Licensed & Insured</h4>
-              <p className="text-white/60 text-sm">CIN: U79120LD2024PTC024410</p>
-            </div>
-            
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-white/60 text-sm">
+            A gift from <a href="https://x.com/emeenx" target="_blank" rel="noopener noreferrer" className="text-white hover:text-turquoise transition-colors font-bold text-base">ameen</a> 🥑
+          </p>
         </div>
       </div>
     </section>

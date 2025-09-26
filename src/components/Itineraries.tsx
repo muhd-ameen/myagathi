@@ -20,7 +20,7 @@ export const Itineraries: React.FC = () => {
         '📸 Photography & memories package'
       ],
       image: 'https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      price: 'From ₹45,000',
+      price: 'From ₹16,500',
       originalPrice: '₹55,000',
       discount: '18% OFF',
       popular: true,

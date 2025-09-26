@@ -91,7 +91,7 @@ export const FAQ: React.FC = () => {
               onClick={() => setActiveCategory(category)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === category
-                  ? 'bg-gradient-to-r from-turquoise to-coral text-white shadow-soft'
+                  ? 'solid-turquoise text-white shadow-soft'
                   : 'bg-white text-deep-ocean hover:bg-turquoise/10 hover:text-turquoise shadow-sm'
               }`}
             >

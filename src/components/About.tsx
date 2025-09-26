@@ -1,31 +1,7 @@
 import React from 'react';
-import { MapPin, Shield, Users, Heart, Award, Clock, Star, CheckCircle } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 export const About: React.FC = () => {
-      const stats = [
-        { number: 'Govt', label: 'Licensed', icon: Shield },
-        { number: 'Local', label: 'Island Experts', icon: MapPin },
-        { number: '100%', label: 'Custom Plans', icon: CheckCircle },
-        { number: '24x7', label: 'Trip Assistance', icon: Clock }
-      ];
-
-  const values = [
-    {
-      icon: Heart,
-      title: 'Passion for Paradise',
-      description: 'We fell in love with Lakshadweep\'s untouched beauty and made it our mission to share this paradise with the world. Every tour is crafted with genuine passion and local expertise.'
-    },
-    {
-      icon: Shield,
-      title: 'Trust & Safety First',
-      description: 'Government-licensed and fully insured, we prioritize your safety above all. Our experienced team ensures every adventure is both thrilling and secure.'
-    },
-    {
-      icon: MapPin,
-      title: 'Local Island Experts',
-      description: 'Born and raised in Agatti, our team knows every hidden cove, secret beach, and local story. We\'re not just tour operators – we\'re your island family.'
-    }
-  ];
 
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-white via-sand/5 to-turquoise/5">
@@ -33,98 +9,59 @@ export const About: React.FC = () => {
         {/* Hero Section */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-turquoise/10 to-coral/10 text-turquoise px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <Heart className="h-4 w-4 fill-current" />
-            <span>Your Island Adventure Specialists</span>
+            <MapPin className="h-4 w-4 fill-current" />
+            <span>Discover Agatti Island</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-deep-ocean mb-6">
-            Born from a
-            <span className="block text-turquoise">Love for Paradise</span>
+            What is
+            <span className="block text-turquoise">Agatti Island?</span>
           </h2>
           <p className="text-xl text-deep-ocean/70 max-w-4xl mx-auto leading-relaxed">
-            Viator isn't just a tour company – it's a dream born from our founder's first glimpse of Lakshadweep's crystal-clear waters. 
-            What started as a personal passion has become a mission to share this untouched paradise with fellow travelers seeking authentic island experiences.
+            Agatti Island is the gateway to Lakshadweep's paradise. This stunning coral island offers pristine beaches, 
+            crystal-clear lagoons, and authentic island experiences. From water sports to cultural immersion, 
+            Agatti is your perfect introduction to the untouched beauty of Lakshadweep.
           </p>
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
-            return (
-              <div key={index} className="text-center group">
-                <div className="bg-gradient-to-br from-turquoise/10 to-coral/10 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <Icon className="h-10 w-10 text-turquoise" />
-                </div>
-                <div className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-2">{stat.number}</div>
-                <p className="text-deep-ocean/70 font-medium">{stat.label}</p>
-              </div>
-            );
-          })}
-        </div>
 
-        {/* Values */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
-          {values.map((value, index) => {
-            const Icon = value.icon;
-            return (
-              <div key={index} className="bg-white rounded-2xl p-8 shadow-soft hover:shadow-soft-lg transition-all duration-300 transform hover:-translate-y-1">
-                <div className="bg-gradient-to-br from-turquoise/10 to-coral/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
-                  <Icon className="h-8 w-8 text-turquoise" />
-                </div>
-                <h3 className="font-display text-2xl font-bold text-deep-ocean mb-4">{value.title}</h3>
-                <p className="text-deep-ocean/70 leading-relaxed">{value.description}</p>
+        {/* Agatti Activities & Specialties */}
+        <div className="bg-gradient-to-r from-turquoise/10 via-coral/10 to-sand/10 rounded-3xl p-8 md:p-12 mb-16">
+          <div className="max-w-4xl mx-auto text-center">
+            <h3 className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-6">
+              🏝️ Why Choose Agatti Island? 🏝️
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8 text-left">
+              <div>
+                <h4 className="font-semibold text-deep-ocean mb-4 text-lg">🌟 Unique Activities:</h4>
+                <ul className="space-y-2 text-deep-ocean/80">
+                  <li>• 🏖️ Three pristine beaches with different vibes</li>
+                  <li>• 🏛️ Rich cultural museum and heritage sites</li>
+                  <li>• 🚣 Kayaking and glass-bottom boat tours</li>
+                  <li>• 🤿 Snorkeling and scuba diving adventures</li>
+                  <li>• 🏝️ Island hopping to nearby paradises</li>
+                </ul>
               </div>
-            );
-          })}
-        </div>
-
-            {/* Story Section */}
-            <div className="bg-gradient-to-r from-turquoise/10 via-coral/10 to-sand/10 rounded-3xl p-8 md:p-12 mb-16">
-              <div className="max-w-4xl mx-auto text-center">
-                <h3 className="font-display text-3xl md:text-4xl font-bold text-deep-ocean mb-6">
-                  Our Story: From Dream to Reality 🌊✨
-                </h3>
-                <p className="text-lg text-deep-ocean/80 leading-relaxed mb-6">
-                  It started with a photo. 📸 One shot of Bangaram Island. White sand. Clear water. That picture hit different. It wasn't just a beach. It was a spark. 🔥
-                </p>
-                <p className="text-lg text-deep-ocean/80 leading-relaxed mb-6">
-                  That spark turned into Viator. A wild belief that everyone should feel the magic of untouched paradise. 🌴 Not just scroll past it. Actually live it. 🌞
-                </p>
-                <p className="text-lg text-deep-ocean/80 leading-relaxed mb-6">
-                  Fast forward. We've taken 500+ people here. 🚤 Watched them laugh, dive, breathe, and carry back stories that stick for life. 💙
-                </p>
-                <p className="text-lg text-deep-ocean/80 leading-relaxed">
-                  But honestly nothing's changed. We're still the same team. 🙌 Still obsessed. Still chasing the same dream. Sharing our islands with anyone who's ready to feel them for real. 🌍
-                </p>
+              <div>
+                <h4 className="font-semibold text-deep-ocean mb-4 text-lg">🎯 Specialties:</h4>
+                <ul className="space-y-2 text-deep-ocean/80">
+                  <li>• 🎣 Traditional fishing experiences</li>
+                  <li>• 🍽️ Authentic local cuisine</li>
+                  <li>• 🌅 360° island sightseeing tours</li>
+                  <li>• 🎭 Native Dweep cultural immersion</li>
+                  <li>• 👨‍🏫 Local expert guides</li>
+                </ul>
               </div>
             </div>
-
-        {/* Company Info */}
-        <div className="bg-white rounded-2xl shadow-soft p-8 text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-12 solid-turquoise rounded-full flex items-center justify-center">
-              <Shield className="h-6 w-6 text-white" />
-            </div>
-                <h3 className="font-display text-2xl font-bold text-deep-ocean">Viator Travels</h3>
-          </div>
-          <p className="text-deep-ocean/80 text-lg mb-4">
-            <strong>Government Licensed Tour Operator</strong> - Your trusted partner for Lakshadweep adventures
-          </p>
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-deep-ocean/60">
-            <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-turquoise" />
-              <span>CIN: U79120LD2024PTC024410</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-turquoise" />
-              <span>Fully Insured & Licensed</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-turquoise" />
-              <span>Agatti Based Operations</span>
+            <div className="mt-8">
+              <p className="text-lg text-deep-ocean/80 leading-relaxed">
+                Agatti Island offers the perfect blend of adventure, relaxation, and cultural discovery. 
+                Whether you're seeking thrilling water sports, peaceful beach time, or authentic island experiences, 
+                Agatti has something special for every traveler.
+              </p>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

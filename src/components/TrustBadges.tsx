@@ -22,7 +22,7 @@ export const TrustBadges: React.FC = () => {
       title: '24/7 Support',
       description: 'Always here when you need us',
       highlight: 'Round-the-clock assistance',
-      color: 'from-sand to-turquoise'
+      color: 'from-turquoise to-coral'
     }
   ];
 
