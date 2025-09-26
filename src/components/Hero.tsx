@@ -70,7 +70,7 @@ export const Hero: React.FC = () => {
             {/* Main Headline */}
             <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight animate-fade-in text-white drop-shadow-lg">
               Your Complete<br />
-              <span className="text-white bg-turquoise/20 px-4 py-2 rounded-lg">
+              <span className="text-white">
                 Agatti Guide
               </span>
             </h1>
