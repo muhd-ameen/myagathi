@@ -93,14 +93,12 @@ export const Hero: React.FC = () => {
               >
                 Plan My Agatti Trip
               </a>
-              <a 
-                href="https://wa.me/918086003344?text=Hi! I'd like to know what activities and experiences are available on Agatti Island. Can you send me details?"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button 
+                onClick={scrollToServices}
                 className="glass text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-300"
               >
                 Explore Activities
-              </a>
+              </button>
             </div>
 
         {/* Social Proof */}
