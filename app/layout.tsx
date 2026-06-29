@@ -32,6 +32,23 @@ export const metadata: Metadata = {
     description:
       "Handmade island trips from Agatti. Permits, transfers and shore support - we handle the details.",
     type: "website",
+    url: "https://viatorventures.example",
+    siteName: "Viator Ventures",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Viator Ventures - Your Complete Agatti Island Guide",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Viator Ventures - Agatti Island, Lakshadweep",
+    description:
+      "Handmade island trips from Agatti. Permits, transfers and shore support - we handle the details.",
+    images: ["/images/og-image.png"],
   },
 };
 
