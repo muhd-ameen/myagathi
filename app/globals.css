@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dolanan light theme mapped to shadcn tokens */
+    --background: 48 23% 95%; /* cream #F4F3EE */
+    --foreground: 70 5% 9%; /* ink #191A16 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 70 5% 9%;
+
+    --primary: 71 45% 22%; /* olive #47511F */
+    --primary-foreground: 48 23% 96%;
+
+    --secondary: 44 18% 89%; /* sand */
+    --secondary-foreground: 70 5% 9%;
+
+    --muted: 44 18% 90%;
+    --muted-foreground: 60 5% 42%; /* stone */
+
+    --accent: 71 45% 22%;
+    --accent-foreground: 48 23% 96%;
+
+    --border: 48 12% 86%;
+    --input: 48 12% 86%;
+    --ring: 71 45% 22%;
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: auto; /* Lenis controls smooth scrolling */
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv01";
+  }
+  ::selection {
+    @apply bg-olive text-cream;
+  }
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* Hide scrollbar for horizontal scrollers */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eae7dd;
+}
+::-webkit-scrollbar-thumb {
+  background: #47511f;
+  border-radius: 999px;
+  border: 2px solid #eae7dd;
+}
