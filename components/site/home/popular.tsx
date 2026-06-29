@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, MapPin, Star } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/reveal";
 import { SectionLabel } from "@/components/site/section";
@@ -49,12 +49,7 @@ export function Popular() {
                   <MapPin className="h-4 w-4 text-olive" />
                   {tour.place}
                 </div>
-                <div className="mt-4 flex items-center justify-between">
-                  <span className="inline-flex items-center gap-1 text-sm font-medium text-ink">
-                    <Star className="h-4 w-4 fill-olive text-olive" />
-                    {tour.rating.toFixed(1)}
-                    <span className="text-stone-muted">/ 5</span>
-                  </span>
+                <div className="mt-4">
                   <span className="text-sm font-semibold text-olive">{tour.meta}</span>
                 </div>
               </div>

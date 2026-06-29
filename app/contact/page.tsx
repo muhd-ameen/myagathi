@@ -126,7 +126,7 @@ export default function ContactPage() {
           <Reveal direction="left">
             <div className="relative h-full min-h-[320px] overflow-hidden rounded-[2rem]">
               <Image
-                src="/images/local-food.jpg"
+                src="/images/image.png"
                 alt="Agatti Island experience"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

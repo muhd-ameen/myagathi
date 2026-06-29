@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Phone, MapPin } from "lucide-react";
+import { MessageCircle, Phone, MapPin } from "lucide-react";
 import { nav, site, wa } from "@/lib/content";
 
 export function Footer() {
@@ -13,23 +13,23 @@ export function Footer() {
               Your complete guide to Agatti Island, Lakshadweep. A government-licensed
               operator handling permits, transfers and unforgettable island experiences.
             </p>
-            <div className="mt-6 flex items-center gap-3">
-              {[
-                { icon: Linkedin, label: "LinkedIn" },
-                { icon: Instagram, label: "Instagram" },
-                { icon: Facebook, label: "Facebook" },
-              ].map(({ icon: Icon, label }) => (
-                <a
-                  key={label}
-                  href={wa("Hi! I found you online and I'd love to know more about Agatti tours.")}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-cream/20 text-cream/80 transition-colors hover:border-cream/50 hover:text-cream"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              <a
+                href={wa("Hi! I'd love to know more about Agatti tours.")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-4 py-2 text-sm font-medium text-cream/90 transition-colors hover:border-cream/50 hover:text-cream"
+              >
+                <MessageCircle className="h-4 w-4" />
+                WhatsApp
+              </a>
+              <a
+                href={`tel:${site.phonePrimary}`}
+                className="inline-flex items-center gap-2 rounded-full border border-cream/20 px-4 py-2 text-sm font-medium text-cream/90 transition-colors hover:border-cream/50 hover:text-cream"
+              >
+                <Phone className="h-4 w-4" />
+                Call
+              </a>
             </div>
           </div>
 
